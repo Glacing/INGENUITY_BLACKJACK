@@ -43,3 +43,12 @@ Une fois la partie finie, vous pouvez à nouveau appeler lancerPartie pour en co
 # Vidéo de démonstration
 
 https://youtu.be/PWd9CSOfrrE
+
+# Tests V&V
+
+Vous pouvez réaliser les différents tests grâce au script tests.igsscript grâce à la commande depuis Ingescape Circle v4 dans ProgramFiles
+```
+igs.exe --device Wi-Fi --port 5670 --script tests.igsscript
+```
+Voici le résultat normalement attendu:
+![image](https://github.com/user-attachments/assets/d0a19cdd-20e8-4e29-a374-0167654fc428)
