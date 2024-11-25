@@ -39,3 +39,7 @@ Une fois cela fait, vous pouvez exécuter le script depuis un terminal avec cett
 Depuis l'application, vous pouvez appeler le service "lancerPartie" de Gestionnaire pour démarrer une nouvelle partie de blackjack.
 Par la suite, il suffit d'appeler les services de J1 et J2 en fonction de si vous souhaitez tirer une carte ou arrêter de tirer.
 Une fois la partie finie, vous pouvez à nouveau appeler lancerPartie pour en commencer une nouvelle.
+
+# Vidéo de démonstration
+
+https://youtu.be/PWd9CSOfrrE
