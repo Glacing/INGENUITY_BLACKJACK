@@ -22,7 +22,16 @@ python3 Joueur\main.py J1 Wi-Fi 5670
 python3 Joueur\main.py J2 Wi-Fi 5670
 ```
 
-3. Joueur au blackjack
+2. Utiliser le script
+Dans le fichier racine des agents est disponible un script launch.batch, vous devez l'éditer et modifier la ligne 35 pour mettre le lien d'exécution du whiteboard sur votre pc.
+```
+start "" "C:\Users\aurel\Downloads\Whiteboard.win64\Whiteboard\Whiteboard.exe"
+```
+Une fois cela fait, vous pouvez exécuter le script depuis un terminal avec cette commande : 
+```
+.\launch.bat
+```
+# Joueur au blackjack
 Depuis l'application, vous pouvez appeler le service "lancerPartie" de Gestionnaire pour démarrer une nouvelle partie de blackjack.
 Par la suite, il suffit d'appeler les services de J1 et J2 en fonction de si vous souhaitez tirer une carte ou arrêter de tirer.
 Une fois la partie finie, vous pouvez à nouveau appeler lancerPartie pour en commencer une nouvelle.
