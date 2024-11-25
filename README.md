@@ -11,6 +11,10 @@ La version actuelle est très simplifiée ;
 - les joueurs jouent tour à tour.
 - l'affichage se fait à l'aide de l'outil Whiteboard, ce dernier n'étant pas interactif dans cette version.
 
+#Installer le blackjack
+Dans un premier temps vous devez installer les agents du dossier blackjack dans votre dossier ingescape et d'ouvrir le fichier igssystem depuis Circles.
+Sachez que le projet a été développé et testé depuis Windows, nous ne pouvons assurer son fonctionnement sur un autre OS.
+
 # Lancer le blackjack
 Il est possible de lancer l'application de deux façons : 
 1. Lancer les agents dans des terminaux séparés
