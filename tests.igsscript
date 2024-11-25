@@ -1,0 +1,34 @@
+/*
+* Tests unitaires
+*/
+
+"Setup" "Test init partie" {
+    Gestionnaire.lancerPartie()
+    assert Gestionnaire.whiteboardOutput == "Tour de J1"
+    assert Gestionnaire.whiteboardColor == "#308834"
+}
+
+"Joueur" "Tests joueur" {
+    J1.demanderPioche()
+    assert Pioche.carteJ1 ~ "[^]|J1"
+    assert Pioche.carte ~ "Joueur 1 a tir[^]"
+    J2.demanderPioche()
+    J1.rester()
+    sleep 1000
+    J2.rester()
+    assert J1.score > 0
+    assert J2.score > 0 
+}
+
+"Joueur" "Tests joueur" {
+    Gestionnaire.lancerPartie()
+    J1.rester()
+    assert Whiteboard.lastChatMessage ~ "J1 a d[^]"
+    sleep 1000
+    J2.rester()
+    assert Gestionnaire.whiteboardOutput == "Egalite !"
+}
+
+"Pioche" "Tirer carte" {
+    Pioche.tirerCarte()
+}
